@@ -5,7 +5,7 @@ import { ThemeProvider } from '@/components/ui/theme-provider';
 import { AuthProvider } from '@/components/auth/AuthProvider';
 import { Toaster } from '@/components/ui/sonner';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], optimized: false });
 
 export const metadata: Metadata = {
   title: 'Environ - Geospatial Parcel Evaluation',
